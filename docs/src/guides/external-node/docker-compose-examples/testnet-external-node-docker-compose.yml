@@ -92,10 +92,10 @@ services:
       EN_WS_PORT: 3061
       EN_HEALTHCHECK_PORT: 3081
       EN_PROMETHEUS_PORT: 3322
-      EN_ETH_CLIENT_URL: https://ethereum-sepolia-rpc.publicnode.com
-      EN_MAIN_NODE_URL: https://sepolia.era.zksync.dev
-      EN_L1_CHAIN_ID: 11155111
-      EN_L2_CHAIN_ID: 300
+      EN_ETH_CLIENT_URL: https://ethereum-hoodi-rpc.publicnode.com
+      EN_MAIN_NODE_URL: https://testnet.l2.rpc.validium.network/
+      EN_L1_CHAIN_ID: 560048
+      EN_L2_CHAIN_ID: 567
       EN_PRUNING_ENABLED: true
 
       EN_STATE_CACHE_PATH: "./db/ext-node/state_keeper"
